@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/stylesheet.css">
+    <title>Bulma Oefening</title>
+</head>
+
+<body>
+
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item">
+                <img src="./images/ufologo.jpeg" width="25" height="100">
+            </a>
+
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item">
+                    Home
+                </a>
+
+                <a class="navbar-item">
+                    Bestellen
+                </a>
+
+                <a class="navbar-item">
+                    Nieuws
+                </a>
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="tile is-ancestor">
+        <div class="tile is-vertical is-8">
+          <div class="tile">
+            <div class="tile is-parent is-vertical">
+              <article class="tile is-child notification is-primary">
+                <p class="title">Basic UFO</p>
+                <!-- <p class="subtitle">Top tile</p> -->
+                <figure class="image is-4by3">
+                    <img src="./images/ufo1.jpeg">
+                  </figure>
+                  <div class="buttons">
+                    <button class="button is-info">Bestellen</button>
+                  </div>
+              </article>
+
+            </div>
+            <div class="tile is-parent">
+              <article class="tile is-child notification is-info">
+                <p class="title">High-Tech UFO</p>
+                <!-- <p class="subtitle">With an image</p> -->
+                <figure class="image is-4by3">
+                  <img src="./images/ufo2.webp">
+                </figure>
+                <div class="buttons">
+                    <button class="button is-info">Bestellen</button>
+                  </div>
+              </article>
+            </div>
+          </div>
+
+        </div>
+        <div class="tile is-parent">
+          <article class="tile is-child notification is-success">
+            <div class="content">
+              <p class="title">Gevechts UFO</p>
+              <!-- <p class="subtitle">With even more content</p> -->
+              <figure class="image is-4by3">
+                <img src="./images/ufo3.jpeg">
+              </figure>
+              <div class="buttons">
+                <button class="button is-info">Bestellen</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+    <section class="section">
+        <h1 class="title">Nieuws</h1>
+        <h2 class="subtitle">
+            Nieuwe Ufo's op de markt! Nu ook een 8 hoekige ufo te koop!
+        </h2>
+    </section>
+
+    <div class="columns newspaper">
+        <div class="column">
+            <p>Aanmelden voor nieuwsbrief</p>
+        </div>
+        <div class="column">
+            <button class="button is-link is-outlined button is-medium is-fullwidth">Aanmelden</button>
+        </div>
+      </div>
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                Dit is een footer   
+            </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
